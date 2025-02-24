@@ -1,7 +1,7 @@
 import React from "react";
 import './Hero.css'
 import profileimg from '../../../public/profileimg.svg'
-import Resume from '../../../Jayanth_Vunnam_Resume.pdf'
+import Resume from '../../../public/Jayanth_Vunnam_Resume.pdf'
 
 function Hero(){
     return (

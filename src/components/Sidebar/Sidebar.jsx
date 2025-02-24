@@ -3,7 +3,7 @@ import './Sidebar.css'
 import { useState } from "react";
 import { FaGithub, FaLinkedin, FaEnvelope, FaMoon, FaSun, FaHome } from "react-icons/fa";
 import { LuFileUser } from "react-icons/lu";
-import Resume from '../../assets/Jayanth_Vunnam_Resume.pdf'
+import Resume from '../../../public/Jayanth_Vunnam_Resume.pdf'
 
 function Sidebar(){
     const [darkMode, setDarkMode] = useState(false);

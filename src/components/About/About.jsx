@@ -1,7 +1,5 @@
 import React from "react";
 import './About.css'
-import theme_pattern from '../../assets/theme_pattern.svg'
-import profileimg from '../../public/profileimg.svg'
 
 function About(){
     return (
