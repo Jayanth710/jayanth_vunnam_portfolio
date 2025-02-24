@@ -12,7 +12,7 @@ function Work(){
                 <h1>Work Experience <FaLaptopCode /></h1>
 
             </div>
-            <div className="services-container">
+            <div className="services-container" data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine">
                 {work_exp.map((work, index) => {
                     return <div key={index} className="services-format" onClick={() => setExpand(expand === index ? null : index)}>
                         <h2>{work.Company_Name}</h2>

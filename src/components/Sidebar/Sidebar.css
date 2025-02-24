@@ -16,6 +16,11 @@
 .sidebar:hover{
     transform: scale(1.1);
     border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+}
+
+.sidebar:hover .icon{
+    color: white;
 }
 
 .icon {
@@ -26,8 +31,7 @@
 }
 
 .icon:hover {
-    color: #0077b5;
-    transform: scale(1.2);
+    transform: scale(1.25);
 }
 
 .toggle-mode {

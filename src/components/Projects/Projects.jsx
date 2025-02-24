@@ -11,7 +11,7 @@ function Projects(){
             </div>
             <div className="mywork-container">
                 {project_data.map((project, index) =>{
-                    return <div key={index} className="project-format">
+                    return <div key={index} className="project-format" data-aos="flip-down">
                         <p><b>{project.project_name}</b></p>
                         <p>{project.project_year}</p>
                         <p>{project.project_desc}</p>

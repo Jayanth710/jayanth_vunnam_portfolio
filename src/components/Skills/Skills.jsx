@@ -10,7 +10,7 @@ function Skills(){
             </div>
             <div className="skills-sections">
                 {skills_data.map((skill, index) => (
-                <div key={index} className="skill-box">
+                <div key={index} className="skill-box" data-aos="zoom-in-up">
                     <span className="skill-icon"><skill.icon /></span>
                     <p>{skill.name}</p>
                 </div>

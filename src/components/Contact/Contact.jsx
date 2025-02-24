@@ -36,7 +36,7 @@ function Contact(){
             <div className="contact-section">
                 <div className="contact-left">
                     <h1>Let's talk</h1>
-                    <p>You can contact ,e at anu time</p>
+                    <p>You can contact me at any time</p>
                     <div className="contact-details">
                         <div className="contact-detail">
                             {/* <img src={mail_icon} alt="" /> */}
