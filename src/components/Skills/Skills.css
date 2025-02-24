@@ -54,7 +54,7 @@
     .skills{
         gap: 30px;
         margin: 50px 70px;
-        margin-left: 100px;
+        width: 100%;
         align-items: start;
 
     }

@@ -56,9 +56,8 @@
     .education{
         gap: 30px;
         margin: 50px 70px;
-        margin-left: 100px;
         align-items: start;
-
+        width: 100%;
     }
     .education-title h1{
         font-size: 40px;

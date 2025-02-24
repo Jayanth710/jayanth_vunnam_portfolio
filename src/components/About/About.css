@@ -55,8 +55,8 @@
     .about{
         gap: 30px;
         margin: 50px 70px;
-        margin-left: 100px;
         align-items: start;
+        width: 100%;
 
     }
     .about-title h1{

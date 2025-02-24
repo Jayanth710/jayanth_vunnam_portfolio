@@ -100,7 +100,7 @@
         align-items: start;
         gap: 70px;
         margin: 20px 70px;
-        margin-left: 100px;
+        width: 80%;
     }
     .services-title h1{
         padding: 0;
@@ -111,7 +111,7 @@
         margin-right: -20px;
     }
     .services-format{
-        width: 100%;
+        width: 120%;
         gap: 20px;
         padding: 32px;
     }
