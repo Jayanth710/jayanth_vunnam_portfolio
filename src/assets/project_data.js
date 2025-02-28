@@ -20,6 +20,13 @@ const projects_data = [
         project_desc: "Developed a predictive model using SVM and Decision Trees for daily COVID-19 case, recovery, and death forecasts globally and in India, achieving 98% accuracy. Integrated real-time data from the Johns Hopkins API, enhancing forecasting accuracy by 25%.",
         skill: ['Python', 'Trees', 'SVM', 'API']
     },
+    {
+        w_no:4,
+        project_name:"Crime Grievance Cell",
+        project_year: "2020",
+        project_desc: "Created an application with \textbf{HTML, CSS, JavaScript, Python, and Django} that enables online crime reporting, complaint tracking, and criminal record management 24/7, reducing manual processing time by 40% and improving accessibility for the public and authorities.",
+        skill: ['HTML&CSS', 'JavaScript', 'Django', 'Postgresql']
+    }
 ]
  
 export default projects_data;

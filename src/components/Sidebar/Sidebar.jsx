@@ -27,9 +27,9 @@ function Sidebar(){
             <a href="mailto:jayanthvunnam7@gmail.com">
                 <FaEnvelope className="icon" />
             </a>
-            <div className="toggle-mode" onClick={toggleDarkMode}>
+            {/* <div className="toggle-mode" onClick={toggleDarkMode}>
                 {darkMode ? <FaSun className="icon" /> : <FaMoon className="icon" />}
-            </div>
+            </div> */}
         </div>
     );
 };

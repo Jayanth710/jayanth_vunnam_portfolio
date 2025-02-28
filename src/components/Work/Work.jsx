@@ -20,7 +20,12 @@ function Work(){
                             <h3>{work.Role}</h3>
                             <p>{work.duration}</p>
                         </div>
-                        <p>{work.Responsibilities} {expand === index && <p className="services-more">{work.Responsibilities_More}</p>}</p>
+                        <p>{work.Responsibilities.map((res, ind) =>{
+                            return <li key={ind}>{res}</li>
+                        })}
+                        {expand === index && <p className="services-more">{work.Responsibilities_More.map((res, ind) => {
+                            return <li key={ind}>{res}</li>
+                        })}</p>}</p>
                         <div className="services-readmore">
                             <p>{expand === index ? "Read Less" : "Read More..."}</p>
                             <img src={arrow_icon} alt="" className={expand === index ? "rotate-arrow" : ""}/>

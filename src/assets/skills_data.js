@@ -1,6 +1,6 @@
 
 import { FaPython, FaJs, FaHtml5, FaCss3, FaNodeJs, FaReact, FaAws, FaGit, FaGithub, FaJenkins, FaLinux } from "react-icons/fa";
-import { SiTypescript, SiC, SiSqlite, SiExpress, SiPostman, SiSplunk, SiNewrelic, SiJest, SiBitbucket, SiTensorflow, SiPytorch, SiNumpy, SiPandas, SiJira, SiConfluence} from "react-icons/si";
+import { SiTypescript, SiC, SiSqlite, SiExpress, SiPostman, SiSplunk, SiNewrelic, SiJest, SiBitbucket, SiTensorflow, SiPytorch, SiNumpy, SiPandas, SiJira, SiConfluence, SiMongodb, SiAwslambda, SiAmazoncloudwatch, SiAmazondynamodb, SiDocker, SiKubernetes } from "react-icons/si";
 
 const skills_data = [
   { name: "C", icon: SiC },
@@ -13,11 +13,17 @@ const skills_data = [
   { name: "Node.js", icon: FaNodeJs },
   { name: "Express.js", icon: SiExpress },
   { name: "Amazon AWS", icon: FaAws },
+  {name: "AWS Lambda", icon: SiAwslambda},
+  {name: "AWS DynamoDB", icon: SiAmazondynamodb},
+  {name: "AWS CloudWatch", icon: SiAmazoncloudwatch},
   { name: "React", icon: FaReact },
   { name: "Postman", icon: SiPostman },
   { name: "Splunk", icon: SiSplunk },
   { name: "New Relic", icon: SiNewrelic },
   { name: "Jest", icon: SiJest },
+  {name: "MongoDB", icon: SiMongodb},
+  {name: "Docker", icon: SiDocker},
+  {name: "Kubernetes", icon: SiKubernetes},
   { name: "Jenkins", icon: FaJenkins },
   { name: "Linux", icon: FaLinux },
   { name: "Git", icon: FaGit },

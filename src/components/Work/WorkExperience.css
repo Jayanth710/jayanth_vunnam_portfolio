@@ -76,6 +76,9 @@
 .services-format:hover p{
     color: white;
 }
+.services-format li{
+    margin-bottom: 15px;
+}
 
 .services-readmore{
     display: flex;

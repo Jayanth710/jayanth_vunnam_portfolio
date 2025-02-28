@@ -19,7 +19,7 @@ function About(){
                             Daily forecasting the COVID-19 cases using SVMs by integrated dynamic data retrieval from the Johns Hopkins website through API.</p>
 
                             <p data-aos="fade-up-left">I am interested in bridging AI/ML models with software applications, ensuring seamless integration into web and mobile platforms for enhanced user experiences.
-                            I also enjoy photography 📸<a href="https://unsplash.com/@jarvis_7">(Unsplash)</a>. This portfolio reflects my journey, projects, and aspirations 🌟📩
+                            I also enjoy photography 📸<a href="https://unsplash.com/@jarvis_7" target="_blank">(Unsplash)</a>. This portfolio reflects my journey, projects, and aspirations 🌟📩
                             Lets connect and collobarate.</p>
                     </div>
                 </div>

@@ -2,20 +2,25 @@ const work_exp = [
     {
         s_no:"01",
         Company_Name:"Advance Auto Parts",
-        duration: "Aug 2022 - Aug 2024",
+        duration: "July 2022 - August 2024",
         Role: "Associate Software Developer",
-        Responsibilities:"I worked as an Associate Software Developer at Advance Auto Parts for two years, contributing to the development of its e-commerce website and mobile app backend. I built and optimized APIs using Python, JavaScript, Node.js, and Express.js,  enhancing functionality and user experience. ",
-        Responsibilities_More:" Leveraging AWS services like Lambda, DynamoDB, and CloudWatch, I improved scalability, performance, and real-time monitoring. I utilized Splunk and New Relic for proactive issue resolution and configured alerts for anomaly detection.  Furthermore, I developed comprehensive end-to-end test cases using Jest ensuring robustness of the codebase."
+        Responsibilities:["I worked as an Associate Software Developer at Advance Auto Parts for two years, contributing to the development of its e-commerce website and mobile app backend. I built and optimized REST APIs using Node.js, Express.js, TypeScript, JavaScript, and AWS, enhancing functionality and user experience."],
+        Responsibilities_More:["Leveraged AWS services like Lambda, DynamoDB, and CloudWatch to optimize backend performance, reducing API response time by 30%.", 
+            "Configured 45+ alerts in New Relic and CloudWatch for real-time anomaly detection, cutting incident response time by 50%.",
+            "Played a key role in website maintenance by troubleshooting issues using Splunk and collaborating with cross-functional teams in an Agile environment to deliver performance enhancements, improving system reliability.",
+            "Developed end-to-end test cases using Jest, increasing test coverage from 60% to 85% and ensuring code quality.",
+            "Reviewed pull requests, providing constructive feedback to support code quality and improve team collaboration."]
     
     },
     {
         s_no:"02",
         Company_Name:"GE Appliances",
-        duration: "Jan 2022 - Jul 2022",
+        duration: "January 2022 - July 2022",
         Role: "Digital Technology Intern",
-        Responsibilities:"I have worked on the Brilliant Factory Application, which is a critical system for real-time tracking of manufacturing plant operations, detecting issues and monitoring employee activity at Louisville, Kentucky. ",
-        Responsibilities_More:" Developed and optimized new features using HTML, CSS and JS resolving bugs and improved the performance by reducing data latency by efficient data retrieval from back-end database systems. Conducted an in-depth analysis of various RPA tools to automate the testing process for Brilliant Factory Application and developed application using UI Path that reduced manual testing time by 30%."
-    },
+        Responsibilities:["I have worked on the Brilliant Factory Application, which is a critical system for real-time tracking of manufacturing plant operations, detecting issues and monitoring employee activity at Louisville, Kentucky. "],
+        Responsibilities_More:["Implemented new features and optimized code using HTML, CSS, and JavaScript, reducing data latency from 5-7s to 2s from back-end.",
+            "Conducted an in-depth analysis of 5+ RPA tools and selected UI Path to automate the testing process for the Brilliant Factory suite, reducing the manual testing time by 30%."]
+    }
 ]
  
 export default work_exp;
