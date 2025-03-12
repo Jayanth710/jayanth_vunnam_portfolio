@@ -37,8 +37,8 @@
 .project-format{
     box-sizing: border-box;
     padding: 10px;
-    width: 419px;
-    height: 250px;
+    width: minmax(419px, 600px);
+    height: minmax(250px, 300px);
     transition: 0.3s;
     /* cursor: pointer; */
     border: 4px solid rgb(59, 126, 130);
